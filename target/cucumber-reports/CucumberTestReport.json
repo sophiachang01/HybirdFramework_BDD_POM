@@ -1,0 +1,442 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 25534048200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Place the Order as Guest User",
+        "description": "",
+        "id": "testing;place-the-order-as-guest-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 943942700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12210481700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The guest user Launches the application URL \"http://automationpractice.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://automationpractice.com/index.php",
+                  "offset": 45
+                }
+              ],
+              "location": "GivenSteps.theGuestUserLaunchesTheApplication(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6913074600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user searches for the product \"Printed Chiffon Dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Printed Chiffon Dress",
+                  "offset": 35
+                }
+              ],
+              "location": "HeaderAndFooterSteps.theUserSearchesForTheProduct(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34581300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The Product page for product \"Printed Chiffon Dress\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Printed Chiffon Dress",
+                  "offset": 30
+                }
+              ],
+              "location": "ProductSteps.theProductPageForProductIsDisplayed(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6419932900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The user choose the product size as \"L\" and quantity as \"2\" and Color as \"Green\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "L",
+                  "offset": 37
+                },
+                {
+                  "val": "2",
+                  "offset": 57
+                },
+                {
+                  "val": "Green",
+                  "offset": 74
+                }
+              ],
+              "location": "ProductSteps.theUserChooseTheProductSizeAsAndQuantityAsAndColor(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115133300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User selects Add to bag",
+            "match": {
+              "location": "ProductSteps.userSelectsAddTobag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2510405400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User selects View bag",
+            "match": {
+              "location": "ProductSteps.andViewBag()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 326887000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The Cart page is displayed",
+            "match": {
+              "location": "CartSteps.theCarPageIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26632600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Product \"Printed Chiffon Dress\" is displayed in cartPage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Printed Chiffon Dress",
+                  "offset": 9
+                }
+              ],
+              "location": "CartSteps.productIsDisplayedInCartPage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2422701600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user clicks on the Checkout Button",
+            "match": {
+              "location": "CartSteps.theUserClicksOnTheCheckOutButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26517842800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user goes on Registration page, enter registration details as \"mr,Tom,Alter,admin@1234,4,June,1990,amazon,2345 Crystal Drive,Arlington,Virginia,22202,United States,888-280-4331\" on \"\u003cMarket\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mr,Tom,Alter,admin@1234,4,June,1990,amazon,2345 Crystal Drive,Arlington,Virginia,22202,United States,888-280-4331",
+                  "offset": 67
+                },
+                {
+                  "val": "\u003cMarket\u003e",
+                  "offset": 186
+                }
+              ],
+              "location": "RegistrationSteps.theUserEnterRegistrationDetailsAs(String,String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1719494100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user clicks on the Checkout Button",
+            "match": {
+              "location": "CartSteps.theUserClicksOnTheCheckOutButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22612400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The delivery page is displayed to the user",
+            "match": {
+              "location": "DeliverySteps.theDeliveryPageIsDisplayedToTheUser()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16434299000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The user enters the delivery details \"Tom,Alter,amazon,2345 Crystal Drive,Arlington,Virginia,22202,United States,888-280-4331,Shipping Address\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tom,Alter,amazon,2345 Crystal Drive,Arlington,Virginia,22202,United States,888-280-4331,Shipping Address",
+                  "offset": 38
+                }
+              ],
+              "location": "DeliverySteps.theUserEntersTheDeliveryDetails(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67635500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The Address page is displayed",
+            "match": {
+              "location": "AddressSteps.the_address_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1687221000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The user choose the delivery address as \"Shipping Address\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shipping Address",
+                  "offset": 41
+                }
+              ],
+              "location": "AddressSteps.the_user_choose_the_delivery_address_as_something(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2208960900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "The user clicks on the Checkout Button",
+            "match": {
+              "location": "CartSteps.theUserClicksOnTheCheckOutButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 900965100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "The Shipping page is displayed",
+            "match": {
+              "location": "ShippingSteps.the_shipping_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2021012600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "The user clicks on the Checkout Button",
+            "match": {
+              "location": "CartSteps.theUserClicksOnTheCheckOutButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64701200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "The Payment page is displayed",
+            "match": {
+              "location": "PaymentSteps.the_payment_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6857528400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "The user choose the payment method as \"Pay by check\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pay by check",
+                  "offset": 39
+                }
+              ],
+              "location": "PaymentSteps.the_user_choose_the_payment_method(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Testing",
+    "description": "",
+    "id": "testing",
+    "keyword": "Feature",
+    "uri": "features/PlaceHolder.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10183728400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Browser dresses as Guest User",
+        "description": "",
+        "id": "testing;browser-dresses-as-guest-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 404757000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6230633500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The guest user Launches the application URL \"http://automationpractice.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://automationpractice.com/index.php",
+                  "offset": 45
+                }
+              ],
+              "location": "GivenSteps.theGuestUserLaunchesTheApplication(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Testing",
+    "description": "",
+    "id": "testing",
+    "keyword": "Feature",
+    "uri": "features/PlaceHolder2.feature"
+  }
+]

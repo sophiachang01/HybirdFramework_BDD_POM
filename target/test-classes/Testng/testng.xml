@@ -1,0 +1,8 @@
+<suite name="Test Runner" parallel ="classes">
+	<test name="Run ALL Tests">
+	<classes>
+	<class name="com.qtpselenium.hybridFramework.runners.MyTestngRunner"/>
+	</classes>
+	
+	</test> 
+</suite>
